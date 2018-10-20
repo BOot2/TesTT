@@ -1,0 +1,35 @@
+{
+  "name": "musicbot",
+  "version": "1.0.0",
+  "description": "A simple node.js discord music bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/developerCodex/musicbot.git"
+  },
+  "keywords": [
+    "music",
+    "bot",
+    "discord",
+    "node.js",
+    "npm",
+    "ytdl"
+  ],
+  "author": "developerCodex, Joseph Banks, ZelAk312, Hackzilla, ASIANBOI",
+  "license": "I put de license in de folder",
+  "bugs": {
+    "url": "https://github.com/developerCodex/musicbot/issues"
+  },
+  "homepage": "https://github.com/developerCodex/musicbot#readme",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "hydrabolt/discord.js#indev-old",
+    "express": "^4",
+    "mathjs": "^3.5.3",
+    "youtube-search": "^1.0.6",
+    "ytdl-core": "^0.7.17"
+  }
+}
